@@ -1,11 +1,20 @@
 # Omkar Kawade
 # preproceess data/data.rtf 
 
-workouts = {}
+# takes in a filename and returns list of individual workout sessions
+def dataSrc(filename):
+	data = ''
+	with open(filename, 'r') as workout_data:
+		data = workout_data.read()
+		data = data.split('\n\n')
+	return data
+	
 
-with open('data/data.txt', 'r') as workout_data:
-	data = workout_data.read()
-	data = data.split('\n\n')
+if __name__ == '__main__':
+	# dictionary containing all workout statistics
+	workouts = {}
+	filename = 'data/data.txt'
+	data = dataSrc(filename)
 
 	for day in data:
 		day = day.split('\n')
@@ -22,6 +31,7 @@ with open('data/data.txt', 'r') as workout_data:
 				workouts[muscle] = {}
 			workouts[muscle][date] = max_weight
 
+	# test results for chest
+	for day, weight in workouts['chest'].items():
+		print(day, weight)
 
-for day, weight in workouts['chest'].items():
-	print(day, weight)
