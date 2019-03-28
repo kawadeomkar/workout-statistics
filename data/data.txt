@@ -1,5 +1,7 @@
+Workout Statistics 
 
-1/23 chest 
+
+1/23 chest
 Bench press
 1 7x25
 3 5x30
@@ -23,7 +25,7 @@ Seated dips
 2 10x180
 
 
-1/24 back and biceps 
+1/24 back&biceps
 Trape barbell pull ups 
 2 8x60 
 1 6x75
@@ -53,7 +55,7 @@ Barbell biceps
 3 6x35 
 
 
-1/25 shoulder and triceps
+1/25 shoulder&triceps
 Dumbbell Incline shoulder 75
 1 10x27.5
 1 10x32.5
@@ -73,10 +75,10 @@ Skull crushers 90 with dips after
 2 15x37.5
 
 
-1/26 rest day 
+1/26 rest
 
 
-1/27 leg 
+1/27 leg
 Squat
 1 5x25
 2 5x30
@@ -94,7 +96,7 @@ Standing calf raise
 3 20x180
 
 
-1/28 back and biceps 
+1/28 back&biceps
 Trape barbell pull ups 
 3 8x65
 
@@ -142,7 +144,7 @@ Seated dips
 3 10x180
 
 
-1/30 shoulder and triceps 
+1/30 shoulder&triceps 
 Dumbbell incline shoulder 75
 1 6x40
 1 5x40
@@ -180,10 +182,10 @@ Hamstring
 3 10x80
 
 
-2/1 rest day
+2/1 rest 
 
 
-2/2 rest day davis
+2/2 rest davis
 
 
 2/3 chest 
@@ -202,7 +204,7 @@ Push ups
 2 30x135
 
 
-2/4 back and biceps
+2/4 back&biceps
 Trape barbell pull ups 
 3 8x70
 
@@ -232,7 +234,7 @@ Barbell biceps
 3 6x40
 
 
-2/5 shoulder and triceps
+2/5 shoulder&triceps
 Shoulder press 
 1 10x10
 1 8x15
@@ -274,13 +276,13 @@ Standing calf raise
 3 20x180
 
 
-2/7 rest day
+2/7 rest 
 
 
-2/8 rest day (midterm)
+2/8 rest midterm
 
 
-2/9 chest (double)  
+2/9 chest double 
 Bench press 
 1 6x35
 1 6x40
@@ -300,7 +302,7 @@ Machine wide arm
 3 8x120
 
 
-2/9 back and biceps (double)
+2/9 back&biceps double
 Trape barbell pull ups 
 2 8x70
 
@@ -327,7 +329,7 @@ Dumbbell hammer
 1 5x22.5
 
 
-2/10 shoulder 
+2/10 shoulder&triceps
 Shoulder press
 2 8x20
 2 6x25
@@ -351,7 +353,7 @@ Triceps push down
 3 8x30
 
 
-2/11 leg (light)
+2/11 leg light
 Squat
 4 5x45
 1 10x25
@@ -389,7 +391,7 @@ Free motion cable single arm cross
 3 12x20
 
 
-2/16 back and biceps
+2/16 back&biceps
 Trape barbell pull ups 
 3 8x70
 
@@ -418,7 +420,7 @@ Dumbbell hammer
 1 5x20
 
 
-2/17 shoulder and triceps
+2/17 shoulder&triceps
 Shoulder press
 1 8x25
 2 7x25
@@ -488,7 +490,7 @@ Free motion cable single arm cross
 2 12x20
 
 
-2/21 back and biceps
+2/21 back&biceps
 Trape barbell pull ups 
 3 8x75
 
@@ -515,10 +517,10 @@ Barbell biceps
 2 8x40
 
 
-2/22 rest (joint)
+2/22 rest joint
 
 
-2/23 shoulder and triceps 
+2/23 shoulder&triceps 
 Shoulder press
 1 8x25
 1 5x30
@@ -543,6 +545,7 @@ Triceps pull down
 
 
 2/24 rest joint 
+
 
 2/25 leg 
 Squat
@@ -586,7 +589,7 @@ Seated dips
 1 15x180
 
 
-2/28 shoulder and triceps 
+2/28 shoulder&triceps 
 Shoulder press
 1 8x25
 1 7x30
@@ -610,13 +613,13 @@ Triceps pull down
 2 8x40
 
 
-3/1 back and biceps
+3/1 back&biceps
 Trape barbell pull ups 
 3 8x75
 
 Wide lat pull down
-1 6x130
-2 7x115
+1 5x130
+2 6x115
 
 Rows 
 1 8x100
@@ -638,7 +641,7 @@ Barbell biceps
 3/2 rest
 
 
-3/3 leg (double)
+3/3 leg double
 Squat
 1 8x45
 2 5x55
@@ -654,7 +657,7 @@ Standing calf raise
 1 20x340
 
 
-3/3 chest (double)
+3/3 chest double
 Bench press
 2 5x45
 1 2x55
@@ -671,7 +674,7 @@ Machine wide warm
 1 6x190
 
 
-3/4 back and biceps
+3/4 back&biceps
 Trape barbell pull ups 
 3 8x75
 
@@ -694,7 +697,7 @@ Dumbbell hammer
 1 10x25
 
 
-3/5 shoulder and triceps 
+3/5 shoulder&triceps 
 Shoulder press
 1 10x25
 1 5x30
@@ -749,3 +752,82 @@ Squat
 3/10 rest SD
 
 
+3/11 back&biceps cut
+Trape barbell pull ups 
+3 15x60
+
+Wide lat pull down 
+1 15x85
+1 13x85
+1 10x85
+
+Rows 
+1 15x60
+2 15x70
+
+Dumbbell hammer 
+1 10x25
+2 7x25
+
+
+3/12 rest finals
+
+
+3/13 rest finals
+
+
+3/14 rest finals
+
+
+3/15 rest finals
+
+
+3/16 rest finals
+
+
+3/17 rest finals
+
+
+3/18 rest finals
+
+
+3/19 rest finals
+
+
+3/20 rest finals 
+
+
+3/21 rest japan
+
+
+3/22 rest japan
+
+
+3/23 rest japan
+
+
+3/24 rest japan
+
+
+3/25 rest japan
+
+
+3/26 rest japan
+
+
+3/27 rest japan
+
+
+3/28 rest japan
+
+
+3/29 rest japan
+
+
+3/30 rest japan
+
+
+3/31 rest japan
+
+
+4/1 rest japan
