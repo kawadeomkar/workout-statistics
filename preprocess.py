@@ -2,6 +2,20 @@
 # preproceess data/data.rtf 
 
 FILE_NAME = 'data/data.txt'
+OUT_FILE = 'data/processed.txt'
+
+def saveData(workouts): 
+	global OUT_FILE
+	
+	with open(OUT_FILE, 'w') as outfile:
+		for muscle in workouts.keys():
+			outfile.write(muscle)
+			for exercise, stats in workouts[muscle].items():
+				outfile.write(exercise)
+				for day, weight in workouts[muscle][exercise].items():
+					outfile.write(str(day) + " " + str(weight))
+			outfile.write("---")
+
 
 # takes in a filename and returns list of individual workout sessions
 def dataSrc(filename):
@@ -13,9 +27,6 @@ def dataSrc(filename):
 	
 
 if __name__ == '__main__':
-	# filename used
-	global FILE_NAME
-
 	# dictionary containing all workout statistics
 	workouts = {}
 	# helper variables
@@ -57,6 +68,7 @@ if __name__ == '__main__':
 			# find max weight in sub list
 			max_weight = 0.0
 			for exercise in day[3:len(day)]:
+				print(exercise)
 				set = ((exercise.split(' '))[1]).split('x')
 				reps, weight = int(set[0]), float(set[1])
 				if weight > max_weight and reps >= 3:
@@ -67,7 +79,5 @@ if __name__ == '__main__':
 				workouts[previous_muscle][exercise_name] = {}
 			workouts[previous_muscle][exercise_name][previous_date] = max_weight
 			
-	# test results for chest
-	for day, weight in workouts['chest'].items():
-		print(day, weight)
-
+	saveData(workouts)
+	
