@@ -29,6 +29,7 @@ def dataSrc(filename):
 if __name__ == '__main__':
 	# dictionary containing all workout statistics
 	workouts = {}
+	rest_days = {}
 	# helper variables
 	previous_muscle = ''
 	previous_date = ''
@@ -62,22 +63,32 @@ if __name__ == '__main__':
 			workouts[muscle][exercise_name][date] = max_weight
 			previous_muscle, previous_date = muscle, date
 		# continuing workout exercisees
-		elif len(day) > 1:
+		elif len(day) > 1 and day[1].split(" ")[1] != 'rest':
 			exercise_name = day[0]
-			
+			print(day)
 			# find max weight in sub list
 			max_weight = 0.0
-			for exercise in day[3:len(day)]:
+			for exercise in day[1:len(day)]:
 				print(exercise)
 				set = ((exercise.split(' '))[1]).split('x')
 				reps, weight = int(set[0]), float(set[1])
+				print(reps, weight)
+				print("max so far: ", max_weight)
 				if weight > max_weight and reps >= 3:
 					max_weight = weight
-			
+					print(max_weight)
+			print(day)
+			print("MAX WEIGHT GONNA BE SET TO: ", max_weight)	
 			# create new dictionary within workouts[muscle] if exercise name DNE
 			if exercise_name not in workouts[previous_muscle].keys():
 				workouts[previous_muscle][exercise_name] = {}
 			workouts[previous_muscle][exercise_name][previous_date] = max_weight
-			
+	
+	for muscle in workouts.keys():
+		print(muscle)
+		for exer, stats in workouts[muscle].items():
+			print(exer)
+			for day, weight in workouts[muscle][exer].items():
+				print(day, weight)
 	saveData(workouts)
 	
