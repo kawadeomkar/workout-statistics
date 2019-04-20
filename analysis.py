@@ -1,6 +1,6 @@
 # analysis.py
 # take processed data and analyze results using matplotlib, scikit
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 
 PROCESSED_FILE_NAME = 'data/processed.txt'
 
@@ -8,7 +8,13 @@ PROCESSED_FILE_NAME = 'data/processed.txt'
 def plotBenchPress():
 	temp = ''
 
-def readProcessedData():
+def processData(data):
+	ret = []
+	for workout in data:
+		workout = workout.split('\n')
+		print(workout)	
+
+def readData():
 	global PROCESSED_FILE_NAME
 	
 	data = ''
@@ -18,5 +24,5 @@ def readProcessedData():
 	return data
 
 if __name__ == '__main__':
-	data = readProcessedData()
-	print(data)
+	data = readData()
+	processData(data)

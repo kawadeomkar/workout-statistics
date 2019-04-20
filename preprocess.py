@@ -9,12 +9,12 @@ def saveData(workouts):
 	
 	with open(OUT_FILE, 'w') as outfile:
 		for muscle in workouts.keys():
-			outfile.write(muscle)
+			outfile.write(muscle + '\n')
 			for exercise, stats in workouts[muscle].items():
-				outfile.write(exercise)
+				outfile.write(exercise + '\n')
 				for day, weight in workouts[muscle][exercise].items():
-					outfile.write(str(day) + " " + str(weight))
-			outfile.write("---")
+					outfile.write(str(day) + " " + str(weight) + '\n')
+			outfile.write("---" + '\n')
 
 
 # takes in a filename and returns list of individual workout sessions
@@ -87,4 +87,6 @@ if __name__ == '__main__':
 			workouts[previous_muscle][exercise_name][previous_date] = max_weight
 	
 	saveData(workouts)
+	print(workouts)
 	print(rest_days)	
+
